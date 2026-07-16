@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Consumir API</title>
+</head>
+<body>
+    <button onclick="obtenerUsuarios()">Consultar Usuarios</button>
+    <pre id="resultado"></pre>
+
+    <script>
+        async function obtenerUsuarios() {
+            const respuesta = await fetch(
+                "http://localhost:5069/usuario"
+            );
+
+            const datos = await respuesta.json();
+
+            document.getElementById("resultado")
+                .textContent = JSON.stringify(datos, null, 2);
+        }
+    </script>
+</body>
+</html>
+

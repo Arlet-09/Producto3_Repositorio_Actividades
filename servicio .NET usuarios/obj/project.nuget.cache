@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "5dbiyUaJrOA=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\luzgo\\Downloads\\pruebapg\\pruebapg.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\luzgo\\.nuget\\packages\\dapper\\2.1.79\\dapper.2.1.79.nupkg.sha512",
+    "C:\\Users\\luzgo\\.nuget\\packages\\npgsql\\10.0.3\\npgsql.10.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
