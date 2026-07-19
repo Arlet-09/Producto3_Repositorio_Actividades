@@ -1,0 +1,39 @@
+{
+  "version": 2,
+  "dgSpecHash": "YQsa6SMZBFw=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\luzgo\\Downloads\\clientesSoapWcf\\netapp\\ClienteNet\\ClienteNet.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\luzgo\\.nuget\\packages\\microsoft.extensions.objectpool\\10.0.0\\microsoft.extensions.objectpool.10.0.0.nupkg.sha512",
+    "C:\\Users\\luzgo\\.nuget\\packages\\system.security.cryptography.pkcs\\10.0.0\\system.security.cryptography.pkcs.10.0.0.nupkg.sha512",
+    "C:\\Users\\luzgo\\.nuget\\packages\\system.security.cryptography.xml\\10.0.0\\system.security.cryptography.xml.10.0.0.nupkg.sha512",
+    "C:\\Users\\luzgo\\.nuget\\packages\\system.servicemodel.http\\10.0.652802\\system.servicemodel.http.10.0.652802.nupkg.sha512",
+    "C:\\Users\\luzgo\\.nuget\\packages\\system.servicemodel.primitives\\10.0.652802\\system.servicemodel.primitives.10.0.652802.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "El paquete \"System.Security.Cryptography.Xml\" 10.0.0 tiene una vulnerabilidad de gravedad alta conocida, https://github.com/advisories/GHSA-37gx-xxp4-5rgx",
+      "projectPath": "C:\\Users\\luzgo\\Downloads\\clientesSoapWcf\\netapp\\ClienteNet\\ClienteNet.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\luzgo\\Downloads\\clientesSoapWcf\\netapp\\ClienteNet\\ClienteNet.csproj",
+      "libraryId": "System.Security.Cryptography.Xml",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "El paquete \"System.Security.Cryptography.Xml\" 10.0.0 tiene una vulnerabilidad de gravedad alta conocida, https://github.com/advisories/GHSA-w3x6-4m5h-cxqf",
+      "projectPath": "C:\\Users\\luzgo\\Downloads\\clientesSoapWcf\\netapp\\ClienteNet\\ClienteNet.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\luzgo\\Downloads\\clientesSoapWcf\\netapp\\ClienteNet\\ClienteNet.csproj",
+      "libraryId": "System.Security.Cryptography.Xml",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}
