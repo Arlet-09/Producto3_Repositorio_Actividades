@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+// Estas dos opciones son EXCLUSIVAS para decirle a Java cómo y dónde generar el código
+option java_multiple_files = true;
+option java_package = "com.miempresa.grpc.greet";
+
+package greet;
+
+service Greeter {
+  rpc SayHello (HelloRequest) returns (HelloReply);
+}
+
+message HelloRequest {
+  string name = 1;
+}
+
+message HelloReply {
+  string message = 1;
+}
